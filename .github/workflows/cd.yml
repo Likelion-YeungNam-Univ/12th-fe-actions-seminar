@@ -24,6 +24,6 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_KEY }}
           script: |
-            cd ~/home/ubuntu/12th-fe-actions-seminar/
+            cd /home/ubuntu/12th-fe-actions-seminar/
             npm install
             nohup npm start &
