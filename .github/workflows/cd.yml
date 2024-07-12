@@ -25,5 +25,6 @@ jobs:
           key: ${{ secrets.SERVER_KEY }}
           script: |
             cd /home/ubuntu/12th-fe-actions-seminar/
+            git pull origin main
             npm install
             nohup npm start &
